@@ -1,19 +1,19 @@
 学习笔记
 # 第三周：递归、分治、回溯
 ## 第七课：泛型递归、树的递归
-1.通过函数体来进行循环。
-2.用参数来作为不同层次传递的连接。
-3.切勿傻递归
-4.找最近重复子问题的解决方法
-5.使用数学归纳法
-递归代码模板（java）
-Public void recursion(int level,int max,param,param)
-{
-	if(level>max){
-		//process result
-		return;
-}
-//处理当前层
+1.通过函数体来进行循环.  
+2.用参数来作为不同层次传递的连接。  
+3.切勿傻递归  
+4.找最近重复子问题的解决方法  
+5.使用数学归纳法  
+递归代码模板（java)  
+Public void recursion(int level,int max,param,param)  
+{  
+	if(level>max){  
+		//process result  
+		return;  
+}  
+//处理当前层  
 Process(level,param);
 //drill down下探到下一层
 Recursion(level+1,max,param);
